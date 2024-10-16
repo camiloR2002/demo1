@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miconsol", "Miconsol\Miconsol.csproj", "{42F3CA47-BD0D-4C2D-98C0-C9881C95F2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milibrary", "Milibrary\Milibrary.csproj", "{90EF69F7-5380-4A65-A17D-44F6A8041CC8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F3CA47-BD0D-4C2D-98C0-C9881C95F2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F3CA47-BD0D-4C2D-98C0-C9881C95F2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F3CA47-BD0D-4C2D-98C0-C9881C95F2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F3CA47-BD0D-4C2D-98C0-C9881C95F2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EF69F7-5380-4A65-A17D-44F6A8041CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EF69F7-5380-4A65-A17D-44F6A8041CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EF69F7-5380-4A65-A17D-44F6A8041CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EF69F7-5380-4A65-A17D-44F6A8041CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
